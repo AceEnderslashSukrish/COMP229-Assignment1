@@ -1,3 +1,6 @@
+/*Sukrish Gokulakrishnan
+  Student ID: 301226286*/
+
 /*custom css goes here*/
 body {
   padding: 50px;
@@ -6,4 +9,14 @@ body {
 
 a {
   color: #00B7FF;
+}
+
+main.container {
+  margin-left: 50%;
+  margin-right: auto;
+}
+
+div.jumbotron {
+  margin-left: 50%;
+  margin-right: auto;
 }
