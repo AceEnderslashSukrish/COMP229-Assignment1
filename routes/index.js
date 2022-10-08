@@ -21,7 +21,7 @@ router.get('/about', function(req, res, next) {
 
 /* GET Products page. */
 router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products', pageContent: 'My Projects'});
+  res.render('index', { title: 'Projects', pageContent: 'My Projects'});
 });
 
 /* GET Services page. */
