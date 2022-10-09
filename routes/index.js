@@ -19,8 +19,8 @@ router.get('/about', function(req, res, next) {
   res.render('index', { title: 'About', pageContent: 'About Me'});
 });
 
-/* GET Products page. */
-router.get('/products', function(req, res, next) {
+/* GET Projects page. */
+router.get('/projects', function(req, res, next) {
   res.render('index', { title: 'Projects', pageContent: 'My Projects'});
 });
 
@@ -31,7 +31,7 @@ router.get('/services', function(req, res, next) {
 
 /* GET Contact Us page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact', pageContent: 'Contact Me @ '});
+  res.render('index', { title: 'Contact', pageContent: 'Contact Me @ s940@my.centennialcollege.ca'});
 });
 
 module.exports = router;
