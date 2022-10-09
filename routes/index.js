@@ -31,7 +31,7 @@ router.get('/services', function(req, res, next) {
 
 /* GET Contact Us page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact', pageContent: 'Contact Me @ s940@my.centennialcollege.ca'});
+  res.render('contact', { title: 'Contact', pageContent: 'Contact Me @'});
 });
 
 module.exports = router;

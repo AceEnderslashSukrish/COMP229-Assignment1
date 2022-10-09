@@ -2,21 +2,20 @@
   Student ID: 301226286*/
 
 /*custom css goes here*/
-/*body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
 
-a {
-  color: #00B7FF;
-}*/
+.allPage {
+  background-image: url("../Assets/images/doodleImage.jpg");
+  background-repeat: repeat;
+  background-color: rgba(211, 211, 211, 0.918);
+  background-blend-mode: color;
+}
 
 .projectList a {
   color: rgb(70, 70, 70);
   text-decoration-line: none;
 }
 
-.projectList ul :hover{
+.projectList ul:hover{
   color: black;
   font-size: 125%;
 }
@@ -25,4 +24,26 @@ a {
   color: black;
   font-size: 115%;
   text-decoration-line: underline;
+}
+
+.mailA a {
+  color: rgb(70, 70, 70);
+  text-decoration-line: none;
+}
+
+.mailA a:hover{
+  color: black;
+  font-size: 115%;
+  text-decoration-line: underline;
+}
+
+.senderName {
+  resize: none; 
+  width: 400px
+}
+
+.contactMessage {
+  resize:none; 
+  height: 200px; 
+  width: 50%;
 }

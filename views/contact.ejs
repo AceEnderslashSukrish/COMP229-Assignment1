@@ -1,0 +1,33 @@
+<%- include("partials/header.ejs") %>
+
+
+<%- include("partials/main_nav.ejs") %> 
+  
+
+  <!--Main Content-->
+  <main class="container">
+    <div class="jumbotron" style="margin-left: 25%; margin-right: auto;">
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+      <br><br>
+      <h5><%= pageContent %> <a href="mailto:s940@my.centennialcollege.ca" class="mailA">s940@my.centennialcollege.ca</a></h5>
+      <br>
+      <form action=”mailto:s940@my.centennialcollege.ca” method=”POST” enctype=”text/plain” id=”emailForm”>
+        <label for="senderName">Name:</label>
+        <br>
+        <input type="text" id="senderName" class="senderName" name="name">
+        <br>
+        <br>
+        <label for="contactMessage">Message:</label>
+        <br>
+        <textarea id=”contactMessage” class="contactMessage" rows=”6″ cols=”20″></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Send" style="margin-left: 45%;">
+      </form>
+
+    </div>
+  </main>
+
+<%- include("partials/bottom_nav.ejs") %> 
+
+<%- include("partials/footer.ejs") %>
