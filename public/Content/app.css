@@ -17,12 +17,11 @@
 
 .projectList ul:hover{
   color: black;
-  font-size: 125%;
 }
 
 .projectList a:hover{
   color: black;
-  font-size: 115%;
+  font-size: 125%;
   text-decoration-line: underline;
 }
 
