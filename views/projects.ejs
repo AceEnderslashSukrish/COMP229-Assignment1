@@ -1,0 +1,27 @@
+<%- include("partials/header.ejs") %>
+
+
+<%- include("partials/main_nav.ejs") %> 
+  
+
+  <!--Main Content-->
+  <main class="container">
+    <div class="jumbotron" style="margin-left: 25%; margin-right: auto;">
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+      <br><br>
+      <h4><%= pageContent %></h4>
+      <br>
+      <h6 style="text-decoration-line: underline;">Semester 1 Fall 2021</h6>
+      <div class="projectList">
+        <ul>
+            <li><a href="http://studentweb.cencol.ca/s940/index.html">COMP-213 Portfolio Page</a></li>
+            <li><a href="http://studentweb.cencol.ca/s940/Term-Project/TermProject.html">COMP-213 Term Project</a></li>
+            <li><a href="https://aceenderslashsukrish.github.io">COMP-391 Space Shooter WebGL Build</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+<%- include("partials/bottom_nav.ejs") %> 
+
+<%- include("partials/footer.ejs") %>

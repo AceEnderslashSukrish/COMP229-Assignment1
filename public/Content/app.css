@@ -2,21 +2,27 @@
   Student ID: 301226286*/
 
 /*custom css goes here*/
-body {
+/*body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}*/
+
+.projectList a {
+  color: rgb(70, 70, 70);
+  text-decoration-line: none;
 }
 
-main.container {
-  margin-left: 50%;
-  margin-right: auto;
+.projectList ul :hover{
+  color: black;
+  font-size: 125%;
 }
 
-div.jumbotron {
-  margin-left: 50%;
-  margin-right: auto;
+.projectList a:hover{
+  color: black;
+  font-size: 115%;
+  text-decoration-line: underline;
 }
