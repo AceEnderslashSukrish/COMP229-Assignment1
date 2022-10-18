@@ -46,3 +46,35 @@
   height: 200px; 
   width: 50%;
 }
+
+#spaceShooter {
+  position: absolute; 
+  margin-top: 10%; 
+  margin-left: 5%; 
+  height: 150px; 
+  width: auto;
+}
+
+#portfolioPage {
+  position: absolute; 
+  margin-top: 10%; 
+  margin-left: 75%; 
+  height: 150px; 
+  width: auto;
+}
+
+
+.caption div {
+  visibility: hidden;
+  width: 120px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.caption:hover div {
+  visibility: visible;
+}
