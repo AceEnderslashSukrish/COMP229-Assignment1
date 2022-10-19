@@ -10,6 +10,11 @@
   background-blend-mode: color;
 }
 
+.jumbotron {
+  margin-left: 25%; 
+  margin-right: auto;
+}
+
 .projectList a {
   color: rgb(70, 70, 70);
   text-decoration-line: none;
